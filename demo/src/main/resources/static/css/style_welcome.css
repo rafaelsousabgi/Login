@@ -1,0 +1,60 @@
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	margin: 0;
+
+	background-image: url('/img/padeiro.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	font-family: Arial, sans-serif;
+	/* Adiciona uma fonte padrão para melhor legibilidade */
+}
+
+.container {
+	text-align: center;
+	background-color: rgba(255, 255, 255, 0.8);
+	/* Adiciona um fundo branco transparente */
+	border-radius: 10px;
+	/* Adiciona bordas arredondadas */
+	padding: 30px;
+	/* Adiciona espaçamento interno */
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	/* Adiciona uma sombra suave */
+	max-width: 400px;
+	/* Limita a largura máxima para melhor legibilidade */
+}
+
+.container h3 {
+	color: #007bff;
+	/* Define a cor do título */
+	margin-bottom: 20px;
+	/* Adiciona espaço abaixo do título */
+}
+
+.container p {
+	font-size: 18px;
+	/* Torna o texto um pouco maior para facilitar a leitura */
+	color: #333;
+	/* Define uma cor de texto mais escura para melhor contraste */
+}
+
+button {
+	padding: 10px 20px;
+	background-color: #007bff;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	font-size: 16px;
+	transition: background-color 0.3s ease;
+	/* Adiciona uma transição suave */
+	margin-top: 20px;
+	/* Adiciona espaço acima do botão */
+}
+
+button:hover {
+	background-color: #0056b3;
+}
